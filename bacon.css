@@ -1,0 +1,53 @@
+/*
+ * Eric Eckert CSE 154 AC
+ * Kevin Bacon
+ * Style sheet for Kevin Bacon MyMDB search
+ */
+
+body {
+    margin: 0;
+}
+#banner, #w3c {
+    background-color: black;
+    padding: 10px;
+}
+
+#frame, #banner {
+    font-family: Verdana, sans-serif;
+}
+
+#banner {
+    color: white;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+#main {
+    margin: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+table {
+    border: 1px solid lightgrey;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+    font-weight: lighter;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
